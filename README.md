@@ -48,6 +48,9 @@ The script authenticates using OAuth2 credentials, queries host data by hostname
 
 Each record represents one endpoint to be validated against the EDR console.
 
+You can easily **adapt the script** to match your own input file structure by updating the column indices in the section where `hostname` and `IP` values are defined.  
+This flexibility allows the tool to work with custom asset lists or data exports from different systems.
+
 ---
 
 ## Output File Format
