@@ -34,6 +34,18 @@ The script authenticates using OAuth2 credentials, queries host data by hostname
 | **Execution** | Command-line |
 
 ---
+## Input File Configuration
+Before running the script, configure the **input** and **output** file names inside the script file (`HostChecker.py`).  
+These values define which CSV file will be read and where the processed results will be written.
+
+Example section to update:
+```python
+with open('inputfilesample.csv') as in_server:
+    with open('sampleoutput.csv','w', newline='') as out_server:
+```
+Ensure that the file names here match your intended input and output files before executing the script.
+
+---
 
 ## Input File Format
 - **File Type:** CSV (`.csv`)  
