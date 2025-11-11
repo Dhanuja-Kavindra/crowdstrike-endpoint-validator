@@ -54,10 +54,10 @@ Each record represents one endpoint to be validated against the EDR console.
 - **File Type:** CSV (`.csv`)  
 - **Contains:** All original columns plus one additional field appended at the end.
 
-| hostid | Host Name | Visible Name | Server IP | AtlasID | groupid | cs_report_status |
+| hostid | Host Name | Visible Name | Server IP | AppID | groupid | cs_report_status |
 |--------|------------|--------------|------------|----------|----------|------------------|
-| 11290 | host-001 | host-001 | 10.10.10.5 | APP-001 | Linux | Reporting to CS Console. |
-| 15398 | host-002 | host-002 | 10.10.11.7 | APP-002 | Linux | Not Reporting to CS Console. |
+| 11290 | sample-host | sample-host | 10.10.10.10 | APP-001 | Linux | Reporting to CS Console. |
+| 15398 | sample-host | sample-host | 10.10.10.10 | APP-002 | Linux | Not Reporting to CS Console. |
 
 **cs_report_status** indicates whether the host is reporting to the EDR console.
 
@@ -86,9 +86,7 @@ Each record represents one endpoint to be validated against the EDR console.
 This repository is for demonstration purposes only and does not include:
 - Real hostnames or IP addresses  
 - API credentials or tokens  
-- Any organization-specific details  
-
-Ensure all environment-specific data is sanitized before sharing or publishing publicly.
+- Any organization-specific details
 
 ---
 
